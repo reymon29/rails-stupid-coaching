@@ -13,6 +13,9 @@ body {
 .respone {
   color: gray;
   text-align: left;
+  border-style: groove;
+  border-radius: 30%;
+  width: 250px;
 }
 
 .btn {
@@ -21,5 +24,14 @@ body {
   font-size: 20px;
   color: blue;
   border: 2px 2px soild;
+  text-decoration: none;
 }
 
+.btn:hover {
+  position: absolute;
+  left: 3px;
+  font-size: 20px;
+  color: green;
+  border: 2px 2px soild;
+  text-decoration: none;
+}
